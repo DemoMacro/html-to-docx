@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
-const fs = require('fs');
-const HTMLtoDOCX = require('../dist/html-to-docx.umd');
+import fs from 'fs';
+import HTMLtoDOCX from '../dist/index.mjs';
 
 /**
  * This example demonstrates the customizable heading styles feature

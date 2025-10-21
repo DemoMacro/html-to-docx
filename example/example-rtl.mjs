@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
-const fs = require('fs');
-// const HTMLtoDOCX = require('html-to-docx');
-const HTMLtoDOCX = require('../dist/html-to-docx.umd');
+import fs from 'fs';
+// import HTMLtoDOCX from '@demomacro/html-to-docx';
+import HTMLtoDOCX from '../dist/index.mjs';
 
 async function generateDoc() {
   const html = `

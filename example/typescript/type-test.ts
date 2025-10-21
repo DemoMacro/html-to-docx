@@ -3,7 +3,7 @@
  * It's not meant to be executed, but rather to test type definitions
  */
 
-import HTMLtoDOCX from "@turbodocx/html-to-docx";
+import HTMLtoDOCX from "@demomacro/html-to-docx";
 
 const htmlString = `<!DOCTYPE html>
     <html lang="en">

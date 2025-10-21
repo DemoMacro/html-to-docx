@@ -1,5 +1,5 @@
-import generateStylesXML from '../src/schemas/styles.js';
-import { defaultHeadingOptions } from '../src/constants.js';
+import generateStylesXML from '../src/schemas/styles';
+import { defaultHeadingOptions } from '../src/constants';
 
 describe('Heading Styles Generation', () => {
   describe('Default heading styles', () => {

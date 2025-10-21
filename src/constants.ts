@@ -1,4 +1,4 @@
-import { cloneDeep } from 'lodash';
+import { cloneDeep } from 'es-toolkit';
 
 const applicationName = 'html-to-docx';
 const defaultOrientation = 'portrait';

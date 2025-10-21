@@ -1,4 +1,4 @@
-import HTMLtoDOCX from 'html-to-docx';
+import HTMLtoDOCX from '@demomacro/html-to-docx';
 import { saveAs } from 'file-saver';
 
 import './App.css';

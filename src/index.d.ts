@@ -1,5 +1,3 @@
-/// <reference types="node" />
-
 declare namespace HTMLtoDOCX {
     interface Margins {
         top?: number;

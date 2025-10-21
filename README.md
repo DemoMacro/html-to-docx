@@ -1,25 +1,22 @@
-[![TurboDocx](./banner.png)](https://www.turbodocx.com)
-
-@turbodocx/html-to-docx
+@demomacro/html-to-docx
 ====================
 [![NPM Version][npm-image]][npm-url]
-[![CodeQL](https://github.com/TurboDocx/html-to-docx/workflows/CodeQL/badge.svg)](https://github.com/TurboDocx/html-to-docx/actions/workflows/codeql.yml)
-[![GitHub Stars](https://img.shields.io/github/stars/turbodocx/html-to-docx?style=social)](https://github.com/turbodocx/html-to-docx)
+[![CodeQL](https://github.com/DemoMacro/html-to-docx/workflows/CodeQL/badge.svg)](https://github.com/DemoMacro/html-to-docx/actions/workflows/codeql.yml)
+[![GitHub Stars](https://img.shields.io/github/stars/DemoMacro/html-to-docx?style=social)](https://github.com/DemoMacro/html-to-docx)
 [![Type Script](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)](https://typescript.org)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?logo=discord)](https://discord.gg/NYKwz4BcpX)
-[![npm](https://img.shields.io/npm/dm/@turbodocx/html-to-docx)](https://www.npmjs.com/package/@turbodocx/html-to-docx)
-[![X](https://img.shields.io/badge/X-@TurboDocx-1DA1F2?logo=x&logoColor=white)](https://twitter.com/TurboDocx)
-[![Embed TurboDocx in Your App in Minutes](https://img.shields.io/badge/Embed%20TurboDocx%20in%20Your%20App%20in%20Minutes-8A2BE2)](https://www.turbodocx.com/use-cases/embedded-api?utm_source=github&utm_medium=repo&utm_campaign=open_source)
+[![npm](https://img.shields.io/npm/dm/@demomacro/html-to-docx)](https://www.npmjs.com/package/@demomacro/html-to-docx)
+[![X](https://img.shields.io/badge/X-@DemoMacro-1DA1F2?logo=x&logoColor=white)](https://twitter.com/DemoMacro)
 
 Convert HTML to Word, Google Docs, and DOCX files with the fastest, most reliable JavaScript library available. Built for modern applications that demand speed and precision—from AI-powered document generation to enterprise reporting systems.
 
-Based on the original work and assisted by the original contributors of [privateOmega/html-to-docx](https://github.com/privateOmega/html-to-docx), this library is now actively maintained and enhanced by TurboDocx, ensuring continuous improvements and long-term support for production environments.
+Based on the original work and assisted by the original contributors of [privateOmega/html-to-docx](https://github.com/privateOmega/html-to-docx), this library is now actively maintained and enhanced by DemoMacro, ensuring continuous improvements and long-term support for production environments.
 
-## Why @turbodocx/html-to-docx?
+## Why @demomacro/html-to-docx?
 
 🚀 **Lightning Fast Performance** - Pure JavaScript implementation with no dependencies on headless browsers or external binaries. Perfect for AI applications that need rapid document generation.
 
-🔄 **Active Maintenance & Support** - Backed by TurboDocx with regular updates, bug fixes, and feature enhancements. Not another abandoned open-source project.
+🔄 **Active Maintenance & Support** - Backed by DemoMacro with regular updates, bug fixes, and feature enhancements. Not another abandoned open-source project.
 
 🤖 **AI-Ready Architecture** - Designed for modern AI workflows where speed matters. Generate thousands of documents without the overhead of browser automation.
 
@@ -34,7 +31,7 @@ Based on the original work and assisted by the original contributors of [private
 Use the npm to install the project.
 
 ```bash
-npm install @turbodocx/html-to-docx
+npm install @demomacro/html-to-docx
 ```
 
 ### TypeScript Support
@@ -44,7 +41,7 @@ This package includes TypeScript typings. No additional installation is required
 ### TypeScript Example
 
 ```typescript
-import HtmlToDocx from "@turbodocx/html-to-docx";
+import HtmlToDocx from "@demomacro/html-to-docx";
 
 const htmlString = `<!DOCTYPE html>
     <html lang="en">
@@ -74,7 +71,7 @@ async function withOptions() {
   const docx = await HtmlToDocx(htmlString, null, {
     orientation: "landscape",
     title: "TypeScript Example",
-    creator: "TurboDocx",
+    creator: "DemoMacro",
     table: {
       row: {
         cantSplit: true,
@@ -110,7 +107,7 @@ async function complete() {
         left: 1800
       },
       title: "Complete Example",
-      creator: "TurboDocx",
+      creator: "DemoMacro",
     },
     footerHtml
   );
@@ -133,7 +130,7 @@ cd example/typescript
 # Install ts-node globally (if not already installed)
 npm install -g ts-node typescript
 
-# Ensure @turbodocx/html-to-docx is built and accessible
+# Ensure @demomacro/html-to-docx is built and accessible
 # From the root directory of the project:
 # npm install
 # npm run build
@@ -287,15 +284,15 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to branch new branches off of develop for contribution.
 
 ## Support
-**Proudly Sponsored by TurboDocx** 
-[!["Proudly Sponsored by TurboDocx"](https://image.typedream.com/cdn-cgi/image/width=1920,format=auto,fit=scale-down,quality=100/https://api.typedream.com/v0/document/public/de39171b-a5c9-49c5-bd9c-c2dfd5d632a2/2PZxyx12UwC5HrIA3p6lo16fCms_Group_16_1_.png)](https://www.TurboDocx.com)
+**Proudly Sponsored by DemoMacro** 
+[!["Proudly Sponsored by DemoMacro"](https://image.typedream.com/cdn-cgi/image/width=1920,format=auto,fit=scale-down,quality=100/https://api.typedream.com/v0/document/public/de39171b-a5c9-49c5-bd9c-c2dfd5d632a2/2PZxyx12UwC5HrIA3p6lo16fCms_Group_16_1_.png)](https://www.DemoMacro.com)
 
 ## License
 
 MIT
 
-[npm-image]: https://img.shields.io/npm/v/@turbodocx/html-to-docx.svg
-[npm-url]: https://npmjs.org/package/@turbodocx/html-to-docx
+[npm-image]: https://img.shields.io/npm/v/@demomacro/html-to-docx.svg
+[npm-url]: https://npmjs.org/package/@demomacro/html-to-docx
 [html-docx-js]: https://github.com/evidenceprime/html-docx-js "html-docx-js"
 [altchunks]: https://docs.microsoft.com/en-us/dotnet/api/documentformat.openxml.wordprocessing.altchunk?view=openxml-2.8.1 "altchunks"
 [libtidy]: https://github.com/jure/node-libtidy "libtidy"
@@ -316,8 +313,8 @@ MIT
 
 ## Contributors
 
-<a href="https://github.com/TurboDocx/html-to-docx/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=turbodocx/html-to-docx" />
+<a href="https://github.com/DemoMacro/html-to-docx/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DemoMacro/html-to-docx" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).

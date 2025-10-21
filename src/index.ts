@@ -2,10 +2,11 @@
 import JSZip from 'jszip';
 import { minify } from 'html-minifier-terser';
 
-import createDocumentOptionsAndMergeWithDefaults from './src/utils/options-utils';
-import addFilesToContainer from './src/html-to-docx';
+import createDocumentOptionsAndMergeWithDefaults from './utils/options-utils';
+import addFilesToContainer from './html-to-docx';
+import type { DocumentOptions } from './types';
 
-const minifyHTMLString = async (htmlString) => {
+const minifyHTMLString = async (htmlString: string): Promise<string | null> => {
   try {
     if (typeof htmlString === 'string' || htmlString instanceof String) {
       const minifiedHTMLString = await minify(htmlString, {
@@ -22,11 +23,11 @@ const minifyHTMLString = async (htmlString) => {
 };
 
 async function generateContainer(
-  htmlString,
-  headerHTMLString,
-  documentOptions = {},
-  footerHTMLString
-) {
+  htmlString: string,
+  headerHTMLString?: string,
+  documentOptions: DocumentOptions = {},
+  footerHTMLString?: string
+): Promise<ArrayBuffer | Blob | Buffer> {
   const zip = new JSZip();
 
   const normalizedDocumentOptions = createDocumentOptionsAndMergeWithDefaults(documentOptions);

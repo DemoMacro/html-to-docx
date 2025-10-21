@@ -1,4 +1,4 @@
-import HTMLtoDOCX from "@turbodocx/html-to-docx";
+import HTMLtoDOCX from "@demomacro/html-to-docx";
 import * as fs from "fs";
 import * as path from "path";
 

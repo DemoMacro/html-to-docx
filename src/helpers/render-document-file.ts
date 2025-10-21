@@ -1,10 +1,10 @@
 /* eslint-disable no-await-in-loop */
 /* eslint-disable no-case-declarations */
 import { fragment } from 'xmlbuilder2';
-import VNode from 'virtual-dom/vnode/vnode';
-import VText from 'virtual-dom/vnode/vtext';
-import isVNode from 'virtual-dom/vnode/is-vnode';
-import isVText from 'virtual-dom/vnode/is-vtext';
+import VNode from 'virtual-dom/vnode/vnode.js';
+import VText from 'virtual-dom/vnode/vtext.js';
+import isVNode from 'virtual-dom/vnode/is-vnode.js';
+import isVText from 'virtual-dom/vnode/is-vtext.js';
 // eslint-disable-next-line import/no-named-default
 import { default as HTMLToVDOM } from 'html-to-vdom';
 import sizeOf from 'image-size';
@@ -12,7 +12,7 @@ import imageToBase64 from 'image-to-base64';
 
 // FIXME: remove the cyclic dependency
 // eslint-disable-next-line import/no-cycle
-import { cloneDeep } from 'lodash';
+import { cloneDeep } from 'es-toolkit';
 import * as xmlBuilder from './xml-builder';
 import namespaces from '../namespaces';
 import { imageType, internalRelationship } from '../constants';
