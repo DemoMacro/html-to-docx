@@ -103,4 +103,4 @@ declare function HTMLtoDOCX(
     footerHtmlString?: string | null,
 ): Promise<ArrayBuffer | Blob | Buffer>;
 
-export = HTMLtoDOCX;
+export default HTMLtoDOCX;
